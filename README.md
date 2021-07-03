@@ -1,6 +1,7 @@
 # code-js
 
-highlight code JavaScript, HTML, C
+- code-js tag to highlight code JavaScript
+- also code-html for HTML, code-c for C language
 
 ## usage
 
