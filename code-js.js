@@ -23,6 +23,7 @@ class HighlightJS extends HTMLElement {
     this.style.display = "block";
     this.style.padding = ".5em .8em";
     this.style.margin = ".3em 0";
+    this.style.lineHeight = "1.4em";
 
     this.style.whiteSpace = "pre-wrap"; // or "pre"
     //this.style.whiteSpace = "pre";
