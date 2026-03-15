@@ -1,9 +1,17 @@
 # code-js
 
-- code-js tag to highlight code JavaScript
-- also code-html for HTML, code-c for C language
+A custom HTML element to highlight JavaScript code in web pages.
 
-## usage
+## Demo
+[https://code4fukui.github.io/code-js/](https://code4fukui.github.io/code-js/)
+
+## Features
+- `<code-js>` tag to highlight JavaScript code
+- Also includes `<code-html>` for HTML and `<code-c>` for C language
+- Uses forked version of [highlight.js](https://highlightjs.org/) for syntax highlighting
+
+## Usage
+Include the `code-js.js` script as a module and use the custom elements:
 
 ```html
 <script type="module" src="https://js.sabae.cc/code-js.js"></script>
@@ -17,11 +25,5 @@ onload = () => {
 </code-js>
 ```
 
-![image](https://user-images.githubusercontent.com/1715217/124349631-0d504180-dc2b-11eb-83e8-7713c2f52b28.png)
-
-[https://js.sabae.cc/code-js.js](https://js.sabae.cc/code-js.js) is proxy to [https://code4fukui.github.io/code-js/code-js.js](https://code4fukui.github.io/code-js/code-js.js)
-
-## lib
-
-[highlight.js ES module version](https://github.com/taisukef/highlight.js/) forked [highlight.js](https://highlightjs.org/)
-
+## License
+MIT License
